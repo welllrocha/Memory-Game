@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo Da Memória</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    /> 
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+    <script src="./src/util.js"></script>
+    <script src="./src/jogoDaMemoria.js"></script>
+    <script src="./src/tela.js"></script>
+    
+    
+  </head>
+  <body class="container-fluid">
+    <br />
+    <div class="row container-fluid">
+        <button type="button" class="btn btn-success"  id="jogar">Clique aqui para iniciar</button>
+        <button type="button" class="btn btn-danger" id="mostrarTudo">Mostrar Tudo</button>
+    </div>
+    <br>
+
+    <!-- ADD SPINNER -->
+    <!-- id="carregando" vai mostrar ou apagar spinner -->
+    <!-- id="contador" Alterar o texto em 3...2...1 e ai sim ele sumir e fazer alguma ação. -->
+    <div id="carregando" class="row container-fluid invisible">
+      <strong id="contador">Começando em 1 ...</strong>
+      <div id="imgSpin" class="spinner-border text-warning spinner-border-sm" role="status">
+        <span class="visually-hidden"></span>
+      </div>
+    </div>
+
+    
+    <div id="conteudo" class="row">
+         
+    </div>
+    
+    
+
+    <!-- ADD MENSAGEM COMBINAÇÃO CORRETA/INCORRETA -->
+    <div  class="row container-fluid">
+      <div  id="mensagem" class="alert alert-success invisible" role="alert">
+        Combinação!!
+      </div>
+    </div>
+
+    <!-- TIMER -->
+    <div id="crono" class="container invisible" >
+      <span id="display" >00:00:00:00</span>
+      
+      <!-- <span id="display_h">00</span> :
+      <span id="display_m">00</span> :
+      <span id="display_s">00</span> : 
+      <span id="display_d">00</span>   -->
+    </div>
+
+  
+
+
+  </body>
+</html>

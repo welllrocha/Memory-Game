@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: burlywood
+}
+    
+/* POSIÇÃO DA MENSAGEM "COMBINAÇÃO CORRETA!" E "COMBINAÇÃO INCORRETA!" */
+#mensagem {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+/* EFEITO DAS CARTAS COM BORDAS, CORES E CENTRALIZEI */
+.card {
+    margin: auto; /*Centraliza as imagens*/
+    border-radius: 45px 20px;
+    border-color: black;
+    box-shadow: 10px 10px; 
+    transform: scale(1); 
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    
+}
+
+/* POSICIONAMENTO, EFEITOS, DAS CARTAS E BOTÃO */
+.card:active {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    transform: scale(0.97);
+    transition: transform .2s;
+
+}
+
+#mostrarTudo {
+    position: absolute;
+    left: 210px;
+}
+
+#contador {
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 350px;
+}
+
+#imgSpin {
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 570px;
+}
+
+.container {
+    
+    position: absolute;
+    width: 100px;
+    margin-left: 620px;
+    margin-top: -600px;
+    padding: 5px;
+    background-color: rgb(32, 26, 26);
+    color: #FFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+}
+
+/* --------------------------------------- */
+/* FUTURA IMPLEMENTAÇÃO PARA VIRAR CARTAS */
+/* --------------------------------------- */
+/* 
+.col-md-3{
+    perspective: 1000px;
+}
+
+.card-img-top{
+    
+        transform: rotateY(180deg);
+      
+}
+
+.card-img-top,
+.verso {
+    
+    border-radius: 45px 20px;
+    border-color: black;
+    box-shadow: 10px 10px;
+  position: absolute;
+  border-radius: 5px;
+ backface-visibility: hidden;
+}
+
+.card-img-top {
+    transform: rotateY(180deg);
+  } */
+
+  
+/* .card.flip {
+    transform: rotateY(180deg);
+} */
