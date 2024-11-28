@@ -2,7 +2,7 @@
 <br>
 <p>Jogo da Memória, é um clássico jogo de cartas simples em que você precisa combinar os pares por vez em 2 cartas de cada vez. Pode-se jogar sozinho ou com mais participantes.</p> 
 
-Neste repositório, utilizei *__JavaScript__* puro contendo elementos e referências que um *__iniciante / intermediário__* poderá visualizar e com isso aumentar o seu nível de aprendizado.
+Neste repositório, utilizei **_JavaScript_** puro contendo elementos e referências que um *__iniciante / intermediário__* poderá visualizar e com isso aumentar o seu nível de aprendizado.
 
 <p>As imagens, áudios usados aqui foram retirados de plataformas gratuitas.</p> 
 
