@@ -2,7 +2,7 @@
 <br>
 <p>Jogo da Memória, é um clássico jogo de cartas simples em que você precisa combinar os pares por vez em 2 cartas de cada vez. Pode-se jogar sozinho ou com mais participantes.</p> 
 
-<p>Neste repositório, utilizei **__JavaScript__** puro contendo elementos e referências que um **_iniciante / intermediário_** poderá visualizar e com isso aumentar o seu nível de aprendizado.</p>
+Neste repositório, utilizei *__JavaScript__* puro contendo elementos e referências que um *__iniciante / intermediário__* poderá visualizar e com isso aumentar o seu nível de aprendizado.
 
 <p>As imagens, áudios usados aqui foram retirados de plataformas gratuitas.</p> 
 
@@ -12,7 +12,7 @@
 
 <p>Memory Game is a classic simple card game where you need to match pairs at a time into 2 cards at a time. You can play alone or with more participants.</p>
 
-<p>In this repository, I used pure **_JavaScript_** containing elements and references that a beginner/intermediate can view and thus increase their level of learning.</p>
+In this repository, I used pure *__JavaScript__* containing elements and references that a beginner/intermediate can view and thus increase their level of learning.
 
 <p>The images, audios used here were taken from free platforms.</p>
 
